@@ -8,9 +8,10 @@ BRANDS = []
     @brand = brand
     if BRANDS.any? == brand
     BRANDS
-    else  
+    else
     BRANDS << brand
   end
+end
 
   def cobble
     self.condition = "new"
